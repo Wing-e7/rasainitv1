@@ -1,32 +1,220 @@
+actions:
+- action_bargaindiscount
+- action_customsentiment
+- respond_faq
+- utter_ask_admissioninfo
+- utter_ask_branding
+- utter_ask_budget
+- utter_ask_business_email
+- utter_ask_clarify
+- utter_ask_info
+- utter_ask_job_function
+- utter_ask_performance
+- utter_ask_products
+- utter_ask_traffic
+- utter_bargain1
+- utter_bargain2
+- utter_bargain3
+- utter_bye
+- utter_comeback
+- utter_contact
+- utter_deny
+- utter_followup
+- utter_getout
+- utter_greet
+- utter_greetq
+- utter_ilike
+- utter_nod
+- utter_priceagreedfollowup
+- utter_purchase
+- utter_talkto_management
+- utter_welcomesecondmeet
+- utter_coleventchat
+entities:
+- admission
+- admpercentage
+- budget
+- business_email
+- campaignprice
+- college
+- company
+- courses
+- fmeetday
+- fmeettime
+- job_function
+- marketing
+- person_name
+- placements
+- products
+- purchase
+- seats
+- colevent
+forms:
+- info_form
+- train_form
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
+- get_contact
+- get_bye
+- pitch
+- greet
+- greetq
+- inform
+- get_price
+- get_info
+- faq
+- affirm
+- get_bargain
+- get_performance
+- get_branding
+- get_admissions
+- get_followup
+- get_challenges
+- deny
+- get_nod
+- purchase
+- purchase_followup
+- get_fixmeeting
+- get_smchat
 responses:
+  utter_ask_admissioninfo:
+  - text: How do you provide admissions? What is your process and by when can we expect
+      them ?
+  utter_ask_branding:
+  - text: How do you help in branding?
+  - text: What specific branding services do you provide ?
+  utter_ask_budget:
+  - text: How much does it cost?
+  - text: How much do you charge?
+  - text: What does it cost?
+  - text: By how much would it set me back?
+  - text: What are the financials ?
+  utter_ask_business_email:
+  - text: Whats your business_email
+  utter_ask_clarify:
+  - text: Could you please elaborate?
+  - text: Do explain more.
+  utter_ask_info:
+  - text: Where do you market my college?
+  utter_ask_job_function:
+  - text: What do you do in the company ?
+  utter_ask_performance:
+  - text: What was your performance last year ?
+  utter_ask_products:
+  - text: How many product offerings do you have ?
+  utter_ask_traffic:
+  - text: How much traffic do you witness in peak periods ?
+  - text: How many unique visitors do you have ?
+  - text: What is your daily traffic ?
+  - text: What is the daily visitor count for your website ?
+  utter_bargain1:
+  - text: We recently invested 2 Crore in a new building and we are short on funds.
+  utter_bargain2:
+  - text: I understand your point but we cant afford to spend {campaignprice} right
+      now.
+  utter_bargain3:
+  - text: How about we do it at {0.6}*{}
+  - text: It is very costly
+  - text: How about you give me 100 admissions at 6% each
+  - text: I can work with the proposed amount but i need 6 guaranteed admissions
+  - text: I have to discuss with management to finalise on the pricing
+  - text: Sorry cant do it at the qouted price
+  - text: You should understand that i am losing out on my entire margin because of
+      this deal
+  - text: It is definitely not profitable at the specified amount
+  - text: Let me think about it
+  - text: The group just spent Rs 2 Crore on this new building
+  - text: We can go for branding but dont see a need for admissions
+  - text: I like the discount you are offering but it still is costly
+  - text: Can you go lower than that
+  utter_bye:
+  - text: See you
+  - text: Bye
+  - text: Thank you and bye bye
+  utter_comeback:
+  - text: I am occupied till next week. Cant take any decision
+  - text: We are busy with our Annual Day celebrations at the moment. Come back Later.
+  - text: I am busy now. Come back later
+  utter_contact:
+  - text: Sure. Take my card
+  utter_deny:
+  - text: Dont need what you are selling.
+  - text: No need for this
+  - text: Come back later.
+  - text: I cant entertain you now. Comeback later.
+  - text: We dont need your service/product.
+  utter_followup:
+  - text: I am available next week. You can meet me then to discuss things further.
+  - text: I am a bit occupied currently. Lets do this again. Do call and set up a meeting.
+  - text: I like the work you guys have done. Lets plan for another meeting in a few days. 
+  - text: We are busy with our Annual day celebrations. Why dont you drop back sometime next week? Do give me a call before coming.
+  utter_getout:
+  - text: I dont like the way you are speaking to me. Please leave.
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  - text: Hello
+  utter_greetq:
+  - text: I am doing good. Thank you for asking.
+  utter_ilike:
+  - text: Interesting! What was your performance last year ?
+  utter_nod:
+  - text: Hmm
+  - text: Okay
+  utter_priceagreedfollowup:
+  - text: Drop me a mail with all the necessary details regarding further processes
+      and we can finalise this.
+  utter_purchase:
+  - text: Yes I like your package offerings
+  - text: I dont understand how you can get me admissions
+  - text: I am not clear on your branding part
+  - text: No. I am not interested
+  - text: Yes. But the price seems high for me
+  - text: Although i do like your offerings; We wont be able to do it this year.
+  - text: Seems fine
+  - text: Lets go ahead with it
+  - text: I will do it if you come down on the price
+  - text: I will let you know soon
+  - text: I am not the decision maker for this
+  - text: I have to discuss this with the management
+  - text: I do like it. I doubt wether the mangaement will buy into this
+  - text: Thank you for your time. Its better if you leave
+  - text: Not interested
+  - text: I dont see a need for what you are offering
+  utter_talkto_management:
+  - text: Why dont you meet the Secretary
+  - text: You should talk to the management
+  utter_welcomesecondmeet:
+  - text: Hello {person_name}. Good to have you back.
+  utter_coleventchat:
+  - text: The {colevent} was allright.
+  - text: We had an amazing {colevent}
 session_config:
-  session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  admission:
+    type: unfeaturized
+  admissioninfo:
+    type: unfeaturized
+  branding:
+    type: unfeaturized
+  budget:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+  campaignprice:
+    type: unfeaturized
+  company:
+    type: unfeaturized
+  job_function:
+    type: unfeaturized
+  performance:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
+  products:
+    type: unfeaturized
+  purchase:
+    type: bool
+  colevent:
+    type: text
+  requested_slot:
+    type: unfeaturized
