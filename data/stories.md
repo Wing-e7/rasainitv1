@@ -11,6 +11,7 @@
 * pitch{"products": "applications"}
     - slot{"products": "applications"}
     - action_customsentiment
+    - utter_followup
 * get_contact
     - utter_contact
 * get_bye
