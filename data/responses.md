@@ -1,4 +1,4 @@
-##ask seats
+## ask seats
 * faq/ask_seats
   - We have 600 seats in the UG courses and 200 seats in the PG courses. We also have a MBA program with 120 seats.
 
