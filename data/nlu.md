@@ -73,68 +73,8 @@
 - [Collegedunia is the most well know and best platform for college admissions](hurray:{'neg': 0.0, 'neu': 0.603, 'pos': 0.397, 'compound': 0.7645})
 - [Our clients are very happy, ecstatic, prosperous, marvelous and wonderfully eager](hurray:{'neg': 0.0, 'neu': 0.191, 'pos': 0.809, 'compound': 0.9692})[clients](hurray) are very happy, ecstatic, prosperous, marvelous and wonderfully eager
 - [I represent Collegedunia and we deliver happy clients](hurray:{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719})[Collegedunia](company) and we deliver happy [clients](hurray)
-
-## synonym:{'neg': 0.0, 'neu': 0.191, 'pos': 0.809, 'compound': 0.9692}
-- Our clients are very happy, ecstatic, prosperous, marvelous and wonderfully eager
-
-## synonym:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}
-- Good morning
-- Good Morning
-
-## synonym:{'neg': 0.0, 'neu': 0.358, 'pos': 0.642, 'compound': 0.5563}
-- A very pleasant evening
-
-## synonym:{'neg': 0.0, 'neu': 0.408, 'pos': 0.592, 'compound': 0.4404}
-- Heelo. Good morning
-
-## synonym:{'neg': 0.0, 'neu': 0.603, 'pos': 0.397, 'compound': 0.7645}
-- Collegedunia is the most well know and best platform for college admissions
-
-## synonym:{'neg': 0.0, 'neu': 0.605, 'pos': 0.395, 'compound': 0.9618}
-- We follow a client centric approach ensuring their satisfaction throughout the process. The clients love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful reviews of our work
-
-## synonym:{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719}
-- I represent Collegedunia and we deliver happy clients
-
-## synonym:{'neg': 0.0, 'neu': 0.625, 'pos': 0.375, 'compound': 0.5563}
-- Hello Sir. A very pleasant morning to you
-
-## synonym:{'neg': 0.0, 'neu': 0.669, 'pos': 0.331, 'compound': 0.8555}
-- We enable colleges to achieve their 100% admission rate and a result over the years we have gained many happy and loyal clients
-
-## synonym:{'neg': 0.0, 'neu': 0.682, 'pos': 0.318, 'compound': 0.7906}
-- We have had exceptional results working with colleges and as a result have numerous happy and ecstatic clients
-
-## synonym:{'neg': 0.0, 'neu': 0.683, 'pos': 0.317, 'compound': 0.836}
-- We have numerous happy clients who love the services and results we provide and continue to work with us
-
-## synonym:{'neg': 0.0, 'neu': 0.735, 'pos': 0.265, 'compound': 0.6077}
-- We have more than 80 happy clients as a result of the same
-
-## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.5574}
-- We have had positive results in enabling colleges achieve their targeted admission rate
-
-## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.6369}
-- I am coming from Collegedunia, the best partner for Colleges for branding and admission relateed services
-
-## synonym:{'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.6124}
-- Collegedunia is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy clients
-
-## synonym:{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34}
-- Our client centric approach is unprecedented and is key to building unique brand value propositions
-
-## synonym:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
-- hello
-- Hello
-- gello
-- heello
-- hey
-- hi
-- I am coming from Collegedunia, Indias foremost search and review platform
-- I am coming from Collegedunia, Indias leading search and discovery platform for colleges
-- I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million
-- Collegedunia is the bext platform for college admissions
-- I represent Collegeduni, the go to partner for all things related to college branding and admissions
+- [I am coming from Collegedunia, India's largest college search, discovery and review platform](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Collegedunia](company), India's largest college search, discovery and [review](products) platform
+- [We partner with colleges and enable them to achieve their admission targets and help them establish a strong brand presence in the market](hurray:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.7184})
 
 ## intent:inform
 - [100k](budget)
@@ -278,6 +218,7 @@
 - Please give me your mail id and phone number.
 - Your cell phone number as well
 - Can i get your contact details to set up a meeting next week ?
+- [Sure Sir. Can i get your contact details so i may follow up with you next week ?](hurray:{'neg': 0.0, 'neu': 0.859, 'pos': 0.141, 'compound': 0.3182})
 
 ## intent:get_nod
 - You have a very beautiful campus
@@ -343,6 +284,7 @@
 - Ok will do.
 - Okay will schedule for next week. Thank you for your time
 - ok will do. it was a pleasure meeting you
+- [Appreciate your time. Will reach out soon. Bye](hurray:{'neg': 0.0, 'neu': 0.612, 'pos': 0.388, 'compound': 0.4215})
 
 ## intent:purchase
 - Would like to [buy](purchase) the package ?
@@ -385,3 +327,63 @@
 - Our admissions are a result of the campaigns we run
 - We direct our organic traffic to admissions.
 - We generate leads first, run them by our counselling team and provide admissions by May month end.
+
+## synonym:{'neg': 0.0, 'neu': 0.191, 'pos': 0.809, 'compound': 0.9692}
+- Our clients are very happy, ecstatic, prosperous, marvelous and wonderfully eager
+
+## synonym:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}
+- Good morning
+- Good Morning
+
+## synonym:{'neg': 0.0, 'neu': 0.358, 'pos': 0.642, 'compound': 0.5563}
+- A very pleasant evening
+
+## synonym:{'neg': 0.0, 'neu': 0.408, 'pos': 0.592, 'compound': 0.4404}
+- Heelo. Good morning
+
+## synonym:{'neg': 0.0, 'neu': 0.603, 'pos': 0.397, 'compound': 0.7645}
+- Collegedunia is the most well know and best platform for college admissions
+
+## synonym:{'neg': 0.0, 'neu': 0.605, 'pos': 0.395, 'compound': 0.9618}
+- We follow a client centric approach ensuring their satisfaction throughout the process. The clients love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful reviews of our work
+
+## synonym:{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719}
+- I represent Collegedunia and we deliver happy clients
+
+## synonym:{'neg': 0.0, 'neu': 0.625, 'pos': 0.375, 'compound': 0.5563}
+- Hello Sir. A very pleasant morning to you
+
+## synonym:{'neg': 0.0, 'neu': 0.669, 'pos': 0.331, 'compound': 0.8555}
+- We enable colleges to achieve their 100% admission rate and a result over the years we have gained many happy and loyal clients
+
+## synonym:{'neg': 0.0, 'neu': 0.682, 'pos': 0.318, 'compound': 0.7906}
+- We have had exceptional results working with colleges and as a result have numerous happy and ecstatic clients
+
+## synonym:{'neg': 0.0, 'neu': 0.683, 'pos': 0.317, 'compound': 0.836}
+- We have numerous happy clients who love the services and results we provide and continue to work with us
+
+## synonym:{'neg': 0.0, 'neu': 0.735, 'pos': 0.265, 'compound': 0.6077}
+- We have more than 80 happy clients as a result of the same
+
+## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.5574}
+- We have had positive results in enabling colleges achieve their targeted admission rate
+
+## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.6369}
+- I am coming from Collegedunia, the best partner for Colleges for branding and admission relateed services
+
+## synonym:{'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.6124}
+- Collegedunia is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy clients
+
+## synonym:{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34}
+- Our client centric approach is unprecedented and is key to building unique brand value propositions
+
+## synonym:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+- hello
+- Hello
+- hey
+- hi
+- I am coming from Collegedunia, Indias foremost search and review platform
+- I am coming from Collegedunia, Indias leading search and discovery platform for colleges
+- I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million
+- Collegedunia is the bext platform for college admissions
+- I represent Collegeduni, the go to partner for all things related to college branding and admissions
