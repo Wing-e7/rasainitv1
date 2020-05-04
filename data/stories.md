@@ -18,6 +18,7 @@
     - utter_bye
 
 ## interactive_story_1
+* greet
     - utter_greet
 * pitch{"hurray": {"neg": 0.0, "neu": 1.0, "pos": 0.0, "compound": 0.0}, "company": "Collegedunia", "products": "review"}
     - slot{"company": "Collegedunia"}
