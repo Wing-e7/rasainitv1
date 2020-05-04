@@ -377,13 +377,3 @@
 ## synonym:{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34}
 - Our client centric approach is unprecedented and is key to building unique brand value propositions
 
-## synonym:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
-- hello
-- Hello
-- hey
-- hi
-- I am coming from Collegedunia, Indias foremost search and review platform
-- I am coming from Collegedunia, Indias leading search and discovery platform for colleges
-- I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million
-- Collegedunia is the bext platform for college admissions
-- I represent Collegeduni, the go to partner for all things related to college branding and admissions
