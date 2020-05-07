@@ -147,6 +147,9 @@
 - Do you advertise in newspapers?
 - How do you plan on marketing your college ?
 - Do you work with any partners for your marketing needs ?
+- I was hoping to understand more about your marketing activities
+- Can you tell me about your marketing activities and how much you spend on it every season ?
+- Could you tell me about the marketing activities you perform ?
 
 ## intent:faq/ask_college
 - How old is your college ?

@@ -1,35 +1,35 @@
-actions:
-- action_bargaindiscount
-- action_customsentiment
-- respond_faq
-- utter_ask_admissioninfo
-- utter_ask_branding
-- utter_ask_budget
-- utter_ask_business_email
-- utter_ask_clarify
-- utter_ask_info
-- utter_ask_job_function
-- utter_ask_performance
-- utter_ask_products
-- utter_ask_traffic
-- utter_bargain1
-- utter_bargain2
-- utter_bargain3
-- utter_bye
-- utter_comeback
-- utter_contact
-- utter_deny
-- utter_followup
-- utter_getout
-- utter_greet
-- utter_greetq
-- utter_ilike
-- utter_nod
-- utter_priceagreedfollowup
-- utter_purchase
-- utter_talkto_management
-- utter_welcomesecondmeet
-- utter_coleventchat
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- get_contact
+- get_bye
+- pitch
+- greet
+- inform
+- get_price
+- get_info
+- faq
+- affirm
+- get_bargain
+- get_performance
+- get_branding
+- get_admissions
+- get_followup
+- get_challenges
+- deny
+- get_nod
+- purchase
+- purchase_followup
+- get_fixmeeting
+- get_smchat
+- faq/ask_marketing
+- faq/ask_courses
+- faq/ask_seats
+- faq/ask_placements
+- get_intro
+- goodbye
+- faq/ask_college
 entities:
 - admission
 - admpercentage
@@ -49,32 +49,37 @@ entities:
 - purchase
 - seats
 - colevent
-forms:
-- info_form
-- train_form
-intents:
-- get_contact
-- get_bye
-- pitch
-- greet
-- greetq
-- inform
-- get_price
-- get_info
-- faq
-- affirm
-- get_bargain
-- get_performance
-- get_branding
-- get_admissions
-- get_followup
-- get_challenges
-- deny
-- get_nod
-- purchase
-- purchase_followup
-- get_fixmeeting
-- get_smchat
+- hurray
+- traffic
+slots:
+  admission:
+    type: unfeaturized
+  admissioninfo:
+    type: unfeaturized
+  branding:
+    type: unfeaturized
+  budget:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+  campaignprice:
+    type: unfeaturized
+  colevent:
+    type: text
+  company:
+    type: unfeaturized
+  job_function:
+    type: unfeaturized
+  performance:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
+  products:
+    type: unfeaturized
+  purchase:
+    type: bool
+  requested_slot:
+    type: unfeaturized
 responses:
   utter_ask_admissioninfo:
   - text: How do you provide admissions? What is your process and by when can we expect
@@ -144,9 +149,12 @@ responses:
   - text: We dont need your service/product.
   utter_followup:
   - text: I am available next week. You can meet me then to discuss things further.
-  - text: I am a bit occupied currently. Lets do this again. Do call and set up a meeting.
-  - text: I like the work you guys have done. Lets plan for another meeting in a few days. 
-  - text: We are busy with our Annual day celebrations. Why dont you drop back sometime next week? Do give me a call before coming.
+  - text: I am a bit occupied currently. Lets do this again. Do call and set up a
+      meeting.
+  - text: I like the work you guys have done. Lets plan for another meeting in a few
+      days.
+  - text: We are busy with our Annual day celebrations. Why dont you drop back sometime
+      next week? Do give me a call before coming.
   utter_getout:
   - text: I dont like the way you are speaking to me. Please leave.
   utter_greet:
@@ -186,35 +194,38 @@ responses:
   utter_coleventchat:
   - text: The {colevent} was allright.
   - text: We had an amazing {colevent}
-session_config:
-  carry_over_slots_to_new_session: true
-  session_expiration_time: 60
-slots:
-  admission:
-    type: unfeaturized
-  admissioninfo:
-    type: unfeaturized
-  branding:
-    type: unfeaturized
-  budget:
-    type: unfeaturized
-  business_email:
-    type: unfeaturized
-  campaignprice:
-    type: unfeaturized
-  company:
-    type: unfeaturized
-  job_function:
-    type: unfeaturized
-  performance:
-    type: unfeaturized
-  person_name:
-    type: unfeaturized
-  products:
-    type: unfeaturized
-  purchase:
-    type: bool
-  colevent:
-    type: text
-  requested_slot:
-    type: unfeaturized
+actions:
+- action_bargaindiscount
+- action_customsentiment
+- respond_faq
+- utter_ask_admissioninfo
+- utter_ask_branding
+- utter_ask_budget
+- utter_ask_business_email
+- utter_ask_clarify
+- utter_ask_info
+- utter_ask_job_function
+- utter_ask_performance
+- utter_ask_products
+- utter_ask_traffic
+- utter_bargain1
+- utter_bargain2
+- utter_bargain3
+- utter_bye
+- utter_comeback
+- utter_contact
+- utter_deny
+- utter_followup
+- utter_getout
+- utter_greet
+- utter_greetq
+- utter_ilike
+- utter_nod
+- utter_priceagreedfollowup
+- utter_purchase
+- utter_talkto_management
+- utter_welcomesecondmeet
+- utter_coleventchat
+forms:
+- info_form
+- train_form
