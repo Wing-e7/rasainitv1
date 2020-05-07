@@ -5,19 +5,19 @@
 - good morning
 - good evening
 - hey there
-- [Good morning](hurray:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404})
-- [Good Morning](hurray:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404})[Good Morning](hurray:{'neg': 0.0, 'neu': 0.256,   'pos': 0.744, 'compound': 0.4404})
-- [Good morning](hurray:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404})[Good morning](hurray:{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404})
-- [hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [Hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [Hello Sir. A very pleasant morning to you](hurray:{'neg': 0.0, 'neu': 0.625, 'pos': 0.375, 'compound': 0.5563})[A very pleasant](hurray) morning to you
-- [Heelo. Good morning](hurray:{'neg': 0.0, 'neu': 0.408, 'pos': 0.592, 'compound': 0.4404})[morning](hurray)
-- [hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [gello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [heello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [Hello](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [hey](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [hi](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
+- [Good morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}"}
+- [Good Morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}"}[Good Morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.256,   'pos': 0.744, 'compound': 0.4404}"}
+- [Good morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}"}[Good morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.256, 'pos': 0.744, 'compound': 0.4404}"}
+- [hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [Hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[Hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [Hello Sir. A very pleasant morning to you]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.625, 'pos': 0.375, 'compound': 0.5563}"}[A very pleasant](hurray) morning to you
+- [Heelo. Good morning]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.408, 'pos': 0.592, 'compound': 0.4404}"}[morning](hurray)
+- [hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [gello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [heello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [Hello]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [hey]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [hi]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
 
 ## intent:goodbye
 - bye
@@ -55,26 +55,26 @@
 - We run a holistic [digital marketing campaign](products) on our platform combined with other social media platforms. We start generating leads over a period of 5 months and counsel these leads on a regular basis to convert them into [admissions](admission)
 - We generally offer a package deal combinig all products.
 - We generate leads through our campaigns and counsell them to convert into admission
-- [A very pleasant evening](hurray:{'neg': 0.0, 'neu': 0.358, 'pos': 0.642, 'compound': 0.5563})
-- [I am coming from Collegedunia, Indias foremost search and review platform](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Collegedunia](company), Indias foremost search and [review](products) platform
-- [We have had positive results in enabling colleges achieve their targeted admission rate](hurray:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.5574})[targeted](products) admission rate
-- [We have more than 80 happy clients as a result of the same](hurray:{'neg': 0.0, 'neu': 0.735, 'pos': 0.265, 'compound': 0.6077})
-- [I am coming from Collegedunia, Indias leading search and discovery platform for colleges](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [We enable colleges to achieve their 100% admission rate and a result over the years we have gained many happy and loyal clients](hurray:{'neg': 0.0, 'neu': 0.669, 'pos': 0.331, 'compound': 0.8555})[We](hurray) enable colleges to achieve their [100](hurray)% admission rate and [a result](hurray) over [the](hurray) years we [have](hurray) gained many [happy](hurray) and [loyal clients](hurray)
-- [I am coming from Collegedunia, the best partner for Colleges for branding and admission relateed services](hurray:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.6369})[Collegedunia](company), the best partner for Colleges for branding and admission relateed services
-- [We have numerous happy clients who love the services and results we provide and continue to work with us](hurray:{'neg': 0.0, 'neu': 0.683, 'pos': 0.317, 'compound': 0.836})[clients](hurray) who love the services and results we provide and continue to work with us
-- [I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Collegedunia](company), India's [leading](hurray) edutech platform with [traffic](traffic) upwards of [3](admission) [Million](traffic)
-- [Our client centric approach is unprecedented and is key to building unique brand value propositions](hurray:{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34})
-- [Collegedunia is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy clients](hurray:{'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.6124})[Collegedunia](company) is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy [clients](hurray)
-- [Collegedunia is the bext platform for college admissions](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Collegedunia](company) is the bext platform for college [admissions](admission)
-- [I represent Collegeduni, the go to partner for all things related to college branding and admissions](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})
-- [We have had exceptional results working with colleges and as a result have numerous happy and ecstatic clients](hurray:{'neg': 0.0, 'neu': 0.682, 'pos': 0.318, 'compound': 0.7906})[clients](hurray)
-- [We follow a client centric approach ensuring their satisfaction throughout the process. The clients love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful reviews of our work](hurray:{'neg': 0.0, 'neu': 0.605, 'pos': 0.395, 'compound': 0.9618})[centric approach](hurray) ensuring their satisfaction throughout the process. The [clients](hurray) love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful [reviews](products) of our work
-- [Collegedunia is the most well know and best platform for college admissions](hurray:{'neg': 0.0, 'neu': 0.603, 'pos': 0.397, 'compound': 0.7645})
-- [Our clients are very happy, ecstatic, prosperous, marvelous and wonderfully eager](hurray:{'neg': 0.0, 'neu': 0.191, 'pos': 0.809, 'compound': 0.9692})[clients](hurray) are very happy, ecstatic, prosperous, marvelous and wonderfully eager
-- [I represent Collegedunia and we deliver happy clients](hurray:{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719})[Collegedunia](company) and we deliver happy [clients](hurray)
-- [I am coming from Collegedunia, India's largest college search, discovery and review platform](hurray:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0})[Collegedunia](company), India's largest college search, discovery and [review](products) platform
-- [We partner with colleges and enable them to achieve their admission targets and help them establish a strong brand presence in the market](hurray:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.7184})
+- [A very pleasant evening]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.358, 'pos': 0.642, 'compound': 0.5563}"}
+- [I am coming from Collegedunia, Indias foremost search and review platform]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[Collegedunia](company), Indias foremost search and [review](products) platform
+- [We have had positive results in enabling colleges achieve their targeted admission rate]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.5574}"}[targeted](products) admission rate
+- [We have more than 80 happy clients as a result of the same]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.735, 'pos': 0.265, 'compound': 0.6077}"}
+- [I am coming from Collegedunia, Indias leading search and discovery platform for colleges]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [We enable colleges to achieve their 100% admission rate and a result over the years we have gained many happy and loyal clients]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.669, 'pos': 0.331, 'compound': 0.8555}"}[We](hurray) enable colleges to achieve their [100](hurray)% admission rate and [a result](hurray) over [the](hurray) years we [have](hurray) gained many [happy](hurray) and [loyal clients](hurray)
+- [I am coming from Collegedunia, the best partner for Colleges for branding and admission relateed services]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.6369}"}[Collegedunia](company), the best partner for Colleges for branding and admission relateed services
+- [We have numerous happy clients who love the services and results we provide and continue to work with us]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.683, 'pos': 0.317, 'compound': 0.836}"}[clients](hurray) who love the services and results we provide and continue to work with us
+- [I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[Collegedunia](company), India's [leading](hurray) edutech platform with [traffic](traffic) upwards of [3](admission) [Million](traffic)
+- [Our client centric approach is unprecedented and is key to building unique brand value propositions]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34}"}
+- [Collegedunia is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy clients]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.6124}"}[Collegedunia](company) is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy [clients](hurray)
+- [Collegedunia is the bext platform for college admissions]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[Collegedunia](company) is the bext platform for college [admissions](admission)
+- [I represent Collegeduni, the go to partner for all things related to college branding and admissions]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}
+- [We have had exceptional results working with colleges and as a result have numerous happy and ecstatic clients]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.682, 'pos': 0.318, 'compound': 0.7906}"}[clients](hurray)
+- [We follow a client centric approach ensuring their satisfaction throughout the process. The clients love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful reviews of our work]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.605, 'pos': 0.395, 'compound': 0.9618}"}[centric approach](hurray) ensuring their satisfaction throughout the process. The [clients](hurray) love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful [reviews](products) of our work
+- [Collegedunia is the most well know and best platform for college admissions]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.603, 'pos': 0.397, 'compound': 0.7645}"}
+- [Our clients are very happy, ecstatic, prosperous, marvelous and wonderfully eager]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.191, 'pos': 0.809, 'compound': 0.9692}"}[clients](hurray) are very happy, ecstatic, prosperous, marvelous and wonderfully eager
+- [I represent Collegedunia and we deliver happy clients]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719}"}[Collegedunia](company) and we deliver happy [clients](hurray)
+- [I am coming from Collegedunia, India's largest college search, discovery and review platform]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}"}[Collegedunia](company), India's largest college search, discovery and [review](products) platform
+- [We partner with colleges and enable them to achieve their admission targets and help them establish a strong brand presence in the market]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.7184}"}
 
 ## intent:inform
 - [100k](budget)
@@ -218,7 +218,7 @@
 - Please give me your mail id and phone number.
 - Your cell phone number as well
 - Can i get your contact details to set up a meeting next week ?
-- [Sure Sir. Can i get your contact details so i may follow up with you next week ?](hurray:{'neg': 0.0, 'neu': 0.859, 'pos': 0.141, 'compound': 0.3182})
+- [Sure Sir. Can i get your contact details so i may follow up with you next week ?]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.859, 'pos': 0.141, 'compound': 0.3182}"}
 
 ## intent:get_nod
 - You have a very beautiful campus
@@ -263,14 +263,12 @@
 
 ## intent:get_bye
 - Thank you
-- Thanks
 - Thank you for your time
 - Your time is appreciated
 - It was a pleasant experience meeting you
 - Nice to meet you
 - Good bye
 - See you
-- Bye
 - Bye , Take care
 - Goodbye, See you soon.
 - Bye,and i hope we do this often
@@ -278,13 +276,11 @@
 - Okay Sir. Will come back again
 - bye
 - goodbye
-- see you around
 - see you later
 - Goodbye
-- Ok will do.
 - Okay will schedule for next week. Thank you for your time
 - ok will do. it was a pleasure meeting you
-- [Appreciate your time. Will reach out soon. Bye](hurray:{'neg': 0.0, 'neu': 0.612, 'pos': 0.388, 'compound': 0.4215})
+- [Appreciate your time. Will reach out soon. Bye]{"entity": "hurray", "value": "{'neg': 0.0, 'neu': 0.612, 'pos': 0.388, 'compound': 0.4215}"}
 
 ## intent:purchase
 - Would like to [buy](purchase) the package ?
@@ -310,9 +306,9 @@
 ## intent:faq
 - Was curious about how many [seats](seats) you have ?
 - How much do you charge for the entire course ?
-- How old is your college and how many courses do you have ?
+- How old is your college and how many[ courses](courses) do you have ?
 - If i might ask how many [seats](seats) do you have ?
-- How many courses do you have in UG and PG ?
+- How many [courses](courses) do you have in UG and PG ?
 - How many [courses](courses) do you have ?
 
 ## intent:get_performance
@@ -347,6 +343,9 @@
 ## synonym:{'neg': 0.0, 'neu': 0.605, 'pos': 0.395, 'compound': 0.9618}
 - We follow a client centric approach ensuring their satisfaction throughout the process. The clients love us for the services we provide and a result our testimonial page is overflowing with positive , prosperous and wonderful reviews of our work
 
+## synonym:{'neg': 0.0, 'neu': 0.612, 'pos': 0.388, 'compound': 0.4215}
+- Appreciate your time. Will reach out soon. Bye
+
 ## synonym:{'neg': 0.0, 'neu': 0.619, 'pos': 0.381, 'compound': 0.5719}
 - I represent Collegedunia and we deliver happy clients
 
@@ -371,9 +370,28 @@
 ## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.6369}
 - I am coming from Collegedunia, the best partner for Colleges for branding and admission relateed services
 
+## synonym:{'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.7184}
+- We partner with colleges and enable them to achieve their admission targets and help them establish a strong brand presence in the market
+
 ## synonym:{'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.6124}
 - Collegedunia is the number one go to partner for all things related to college branding and admissions and as a result we have numerous happy clients
 
 ## synonym:{'neg': 0.0, 'neu': 0.854, 'pos': 0.146, 'compound': 0.34}
 - Our client centric approach is unprecedented and is key to building unique brand value propositions
 
+## synonym:{'neg': 0.0, 'neu': 0.859, 'pos': 0.141, 'compound': 0.3182}
+- Sure Sir. Can i get your contact details so i may follow up with you next week ?
+
+## synonym:{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+- hello
+- Hello
+- gello
+- heello
+- hey
+- hi
+- I am coming from Collegedunia, Indias foremost search and review platform
+- I am coming from Collegedunia, Indias leading search and discovery platform for colleges
+- I represent Collegedunia, India's leading edutech platform with traffic upwards of 3 Million
+- Collegedunia is the bext platform for college admissions
+- I represent Collegeduni, the go to partner for all things related to college branding and admissions
+- I am coming from Collegedunia, India's largest college search, discovery and review platform
